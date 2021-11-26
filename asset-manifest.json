@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/foodlogo-reto-cuatro/static/css/main.6eebe6a3.chunk.css",
+    "main.js": "/foodlogo-reto-cuatro/static/js/main.fe41672b.chunk.js",
+    "main.js.map": "/foodlogo-reto-cuatro/static/js/main.fe41672b.chunk.js.map",
+    "runtime-main.js": "/foodlogo-reto-cuatro/static/js/runtime-main.c15c5ca2.js",
+    "runtime-main.js.map": "/foodlogo-reto-cuatro/static/js/runtime-main.c15c5ca2.js.map",
+    "static/js/2.c3b749ae.chunk.js": "/foodlogo-reto-cuatro/static/js/2.c3b749ae.chunk.js",
+    "static/js/2.c3b749ae.chunk.js.map": "/foodlogo-reto-cuatro/static/js/2.c3b749ae.chunk.js.map",
+    "index.html": "/foodlogo-reto-cuatro/index.html",
+    "static/css/main.6eebe6a3.chunk.css.map": "/foodlogo-reto-cuatro/static/css/main.6eebe6a3.chunk.css.map",
+    "static/js/2.c3b749ae.chunk.js.LICENSE.txt": "/foodlogo-reto-cuatro/static/js/2.c3b749ae.chunk.js.LICENSE.txt",
+    "static/media/Ellipse1.ec79ede5.png": "/foodlogo-reto-cuatro/static/media/Ellipse1.ec79ede5.png",
+    "static/media/Ellipse2.a790aacc.png": "/foodlogo-reto-cuatro/static/media/Ellipse2.a790aacc.png",
+    "static/media/Ellipse3.26dadb91.png": "/foodlogo-reto-cuatro/static/media/Ellipse3.26dadb91.png",
+    "static/media/Ellipse4.ff5e8968.png": "/foodlogo-reto-cuatro/static/media/Ellipse4.ff5e8968.png",
+    "static/media/Ellipse5.c53ec603.png": "/foodlogo-reto-cuatro/static/media/Ellipse5.c53ec603.png",
+    "static/media/Ellipse6.af1c615b.png": "/foodlogo-reto-cuatro/static/media/Ellipse6.af1c615b.png",
+    "static/media/Sushi.a410d59d.png": "/foodlogo-reto-cuatro/static/media/Sushi.a410d59d.png",
+    "static/media/eventos.56f45eda.PNG": "/foodlogo-reto-cuatro/static/media/eventos.56f45eda.PNG",
+    "static/media/img1.1fff98b9.jpg": "/foodlogo-reto-cuatro/static/media/img1.1fff98b9.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c15c5ca2.js",
+    "static/js/2.c3b749ae.chunk.js",
+    "static/css/main.6eebe6a3.chunk.css",
+    "static/js/main.fe41672b.chunk.js"
+  ]
+}
