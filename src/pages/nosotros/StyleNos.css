@@ -1,0 +1,282 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;800;900&display=swap');
+.nosotros h1{
+    font-family: 'Rockwell Condensed';
+    font-size: 60px;
+    font-weight: bold;
+    margin-top: 110px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nosotros h1 span{
+    font-family: 'Rockwell Condensed';
+    color: #E91E1E;
+}
+/* imagen y reseña */
+.main-historia{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.imagen img{
+    margin-top: 3px;
+    width: 350px;
+    height: 500px;
+    margin-left: 1rem;
+}
+.titulo h1{
+    font-family: 'Rockwell Condensed';
+    font-size: 40px;
+    font-weight: bold;
+    text-indent: 23.5rem;
+}
+.textoP p{
+    font-family: 'Poppins';
+    font-size: 16px;
+    max-width: 600px;
+    margin-left: 40px;
+    text-align: justify;
+    margin-bottom: 5rem;
+}
+/* Equipo de trabajo */
+.main-equipo{
+    background-color: #c4c4c4;
+    margin-top: 3rem;
+    padding-bottom: 20px;
+}
+.titulo-equipo h1{
+    padding-top: 35px;
+    font-family: 'Rockwell Condensed';
+    font-size: 50px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.titulo-equipo h1 span{
+    font-family: 'Rockwell Condensed';
+    color: #E91E1E;
+}
+/* Integrantes */
+.lista{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    margin-right: 25px;
+}
+.integrante{
+    margin: 0px 7rem;
+}
+.integrante img{
+    height: 120px;
+    width: 130px;
+}
+.integrante h2{
+    margin-top: 5px;
+    text-indent: 10px;
+    font-size: 40px;
+    font-family: 'Rockwell Condensed'; 
+}
+.integrante p{
+    display: block;
+    text-indent: 45px;
+    font-size: 30px;
+    font-family: 'Rockwell Condensed'; 
+    color: #E91E1E;
+}
+.main-directivo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.directivo img{
+    height: 120px;
+    width: 130px;
+}
+.directivo h2{
+    margin-top: 5px;
+    text-indent: 8px;
+    font-size: 40px;
+    font-family: 'Rockwell Condensed'; 
+}
+.directivo p{
+    display: block;
+    text-indent: 22px;
+    font-size: 30px;
+    font-family: 'Rockwell Condensed'; 
+    color: #E91E1E;
+}
+/* Comentarios */
+.main-comentarios{
+    display: flex;
+    margin-bottom: 40px;
+}
+
+.barra{
+    height: 27rem;
+    width: 1px;
+    margin-top: 50px;
+    margin-left: 10rem;
+    background-color: #E91E1E;
+    padding-right: 5px;
+    border-radius: 20px;
+}
+.com img{
+    margin-top: 5rem;
+    margin-left: 4rem;
+    height: 100px;
+    width: 100px;
+}
+.com h4{
+    margin-top: 6.1rem;
+    text-indent: 19px;
+    font-size: 17px;
+}
+.com p{
+    display: block;
+    font-family: 'Poppins';
+    font-size: 13px;
+    margin-left: 20px;
+    max-width: 70rem;
+}
+.com{
+    display: flex;
+}
+.com1 h4{
+    margin-top: 6rem;
+    display: block;
+    text-indent: 19px;
+    font-size: 17px;
+}
+.com1 img{
+    margin-top: 5rem;
+    margin-left: 4rem;
+    height: 100px;
+    width: 100px;
+}
+.com1 p{
+    display: block;
+    font-size: 13px;
+    font-family: 'Poppins';
+    margin-left: 20px;
+    max-width: 70rem;
+}
+.com1{
+    display: flex;
+}
+/* Responsive  */
+@media screen and (max-width: 500px) {
+    .navbar-brand {
+        font-family: 'Rockwell Condensed';
+        font-size: 3rem;
+        font-weight: bold;
+        color: #000000;
+    }
+    
+    .navbar-brand span {
+        color: #E91E1E;
+    }
+    .nosotros h1{
+        font-family: 'Rockwell Condensed';
+        font-size: 50px;
+        font-weight: bold;
+        margin-top: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: center;   
+    }
+    .main-historia{
+        display: block;
+    }
+    .imagen img{
+        width: 450px;
+        margin-left: 20px;
+    }
+    .titulo h1{
+        font-family: 'Rockwell Condensed';
+        font-size: 30px;
+        font-weight: bold;
+        margin-top: 10px;
+        text-indent: 1.7rem;
+    }
+    .texto p{
+        font-family: 'Poppins';
+        font-size: 16px;
+        max-width: 420px;
+        margin-top: 20px;
+        margin-left: 30px;
+        text-align: justify;
+    }
+    .main-equipo{
+        background-color: #c4c4c4;
+        margin-top: 3em;
+    }
+    .titulo-equipo h1{
+        font-family: 'Rockwell Condensed';
+        font-size: 50px;
+        font-weight: bold;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .titulo-equipo h1 span{
+        color: #E91E1E;
+    }
+    /* Integrantes */
+    .lista{
+        display: block;
+        margin-top: 30px;
+        margin-left: 100px;
+    }
+    /* comentarios */
+    .barra{
+        height: 30rem;
+        width: .5px;
+        margin-top: 5rem;
+        margin-left: 1.5rem;
+        background-color: #E91E1E;
+        padding-right: 10px;
+        border-radius: 20px;
+    }
+    .com img{
+        margin-top: 4rem;
+        margin-left: 2rem;
+        height: 100px;
+        width: 100px;
+    }
+    .com h4{
+        margin-top: 4.5rem;
+        text-indent: 11px;
+    }
+    .com p{
+        display: block;
+        font-family: 'Poppins';
+        margin-left: 12px;
+        max-width: 50rem;
+    }
+    .com{
+        display: flex;
+    }
+    .com1 h4{
+        margin-top: 7.5rem;
+        display: block;
+        text-indent: 12px;
+    }
+    .com1 img{
+        margin-top: 7rem;
+        margin-left: 2rem;
+        height: 100px;
+        width: 100px;
+    }
+    .com1 p{
+        display: block;
+        font-family: 'Poppins';
+        margin-left: 12px;
+        max-width: 50rem;
+    }
+    .com1{
+        display: flex;
+    }
+}
+/* END Nosotros page */

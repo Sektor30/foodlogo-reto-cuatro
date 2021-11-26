@@ -1,0 +1,80 @@
+.reservacion-banner {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: var(--negro);
+    padding-bottom: 20px;
+}
+
+.reservacion-banner .btn {
+    padding: 0;
+    height: 4rem;
+}
+
+.card-wrapper {
+    display: grid;
+    grid-template-columns: repeat(1, 420px);
+}
+
+.card-img {
+    background: url('https://images.pexels.com/photos/315755/pexels-photo-315755.jpeg?auto=compress&cs=tinysrgb&h=650&w=940') center/cover no-repeat;
+}
+
+.reservacion-banner h1 {
+    padding-bottom: 40px;
+    margin-bottom: 20px;
+}
+
+.card-text {
+    background: var(--blanco);
+    height: 330px;
+}
+
+.card-text h3 {
+    text-align: center;
+    color: var(--negro);
+    padding: 25px 0 10px 0;
+    font-size: 3rem;
+    font-weight: 500;
+}
+
+.form-row {
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.card-text form select, .card-text form input {
+   display: block;
+   width: 100%;
+   margin: 15px 12px;
+   padding: 5px;
+   font-size: 15px;
+   font-family: var(--font-txt);
+   outline: none;
+   border: none;
+   border-bottom: 1px solid var(--negro);
+   font-weight: 300;
+}
+
+.card-text form input[type=text], .card-text form input[type=number], .card-text form input::placeholder, .card-text select {
+    color: var(--light-color);
+}
+
+@media (max-width:991px) {
+
+    .card-img {
+        height: 330px;
+    }
+
+    .reservacion-banner h1 {
+        margin-top: 100px;
+    }
+
+    .menu .meal-content {
+        width: 60%;
+        left: 20%;
+    }
+}

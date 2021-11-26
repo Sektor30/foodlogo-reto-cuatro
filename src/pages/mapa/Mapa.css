@@ -1,0 +1,21 @@
+.containeMap {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 80%;
+    margin: 8rem auto;
+}
+
+.containeMap a {
+    font-size: 5rem;
+    font-family: var(--font-title);
+    color: var(--negro);
+    border: 0.2rem solid var(--negro);
+    padding: .8rem 3rem;
+    border-radius: .5rem;
+}
+
+.containeMap a:hover {
+    background: var(--rojo);
+     color: var(--blanco);
+}

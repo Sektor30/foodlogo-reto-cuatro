@@ -1,0 +1,76 @@
+.container {
+    margin: 10rem auto;
+}
+
+.cards {
+    box-shadow: var(--box-shadow);
+    margin: 0 auto;
+    width: 50%;
+    padding: 4rem;
+    text-align: center;
+    position: relative;
+}
+
+.cards h1 {
+    margin-top: 0;
+    font-size: 9rem;
+    width: 100%;
+}
+
+form input, textarea {
+    display: block;
+    width: 90%;
+    margin: 25px auto 0;
+    font-size: 15px;
+    font-family: var(--font-txt);
+    outline: none;
+    border: none;
+    border-bottom: 1px solid var(--negro);
+    font-weight: 300;
+}
+
+.card-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+ 
+form input[type=text], form input::placeholder, select {
+    color: var(--light-color);
+}
+
+.alert {
+    margin: 0 auto 2rem;
+    background-color: #FCD7D5;
+    width: 40%;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #AF776D;
+}
+
+.cards p {
+    font-size: 2rem;
+    margin-top: 2rem;
+}
+
+.cards a {
+    color: var(--rojo);
+}
+
+@media (max-width:991px) {
+    .cards {
+        width: 90%;;
+    }
+
+    .alert {
+        width: 90%;
+    }
+}
+
+@media (max-width: 1200px) {
+    .cards h1 {
+        font-size: 7rem;
+    }
+}

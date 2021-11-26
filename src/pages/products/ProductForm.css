@@ -1,0 +1,67 @@
+.cardsOne {
+    box-shadow: var(--box-shadow);
+    margin: 20rem auto;
+    width: 45%;
+    padding: 0 2rem;
+}
+
+.cardsOne h1 {
+    font-size: 5rem;
+    width: 50%;
+}
+
+.card-wrappers {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-wrappers img {
+    flex: 1;
+    width: 20%;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 2rem auto;
+    width: 90%;
+}
+
+.form {
+    margin: 1rem 0 5rem;
+    flex: 1;
+}
+
+.card-wrappers .form input {
+    display: block;
+    width: 80%;
+    margin: 25px auto;
+    padding: 5px;
+    font-size: 15px;
+    font-family: var(--font-txt);
+    outline: none;
+    border: none;
+    border-bottom: 1px solid var(--negro);
+    font-weight: 300;
+}
+
+.card-wrappers .form textarea {
+    display: block;
+    width: 80%;
+    margin: 25px auto;
+    padding: 5px;
+    font-size: 15px;
+    font-family: var(--font-txt);
+    outline: none;
+    border: none;
+    border-bottom: 1px solid var(--negro);
+    font-weight: 300;
+}
+
+@media (max-width:991px) {
+    .cardsOne {
+        width: 90%;;
+    }
+}

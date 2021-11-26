@@ -1,0 +1,28 @@
+.containerCont {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4rem;
+    width: 70%;
+    margin: 4rem auto;
+}
+
+.containerCont p {
+    flex: 1;
+    font-size: 1.8rem;
+    font-family: var(--font-txt);
+}
+
+.containerCont form {
+    flex: 1;
+    border: 0.5px solid var(--negro);
+    border-radius: 2rem;
+    padding: 2rem;
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+}
